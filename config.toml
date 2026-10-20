@@ -1,0 +1,4 @@
+[functions.roblox-avatar]
+# This public read-only function is called before website login.
+# It only proxies fixed Roblox API hosts and validates its input; do not add privileged DB operations here.
+verify_jwt = false
